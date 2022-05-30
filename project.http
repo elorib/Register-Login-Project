@@ -1,0 +1,13 @@
+@local=http://localhost:3000
+
+
+###
+POST {{local}}/register/details
+Content-Type: application/x-www-form-urlencoded
+
+{
+    "email": "elori@gmail.com",
+    "fullName": "elori",
+    "phone": "050-000-0000",
+    "password": "1159159Elorib!"
+}

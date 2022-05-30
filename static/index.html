@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="http://localhost:3000/stylesheet" />
+  </head>
+  <body>
+    <div class="form-container">
+      <form
+        action="http://localhost:3000/register/details"
+        method="post"
+        id="form"
+      >
+        <label for="full-name">Full Name</label>
+        <input
+          type="text"
+          name="fullName"
+          id="full-name"
+          placeholder="Your full name"
+        />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Your email address"
+        />
+        <label for="phone">Phone</label>
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="Your phone number"
+        />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Your password"
+        />
+        <button type="submit" id="submit" form="form">Register</button>
+      </form>
+    </div>
+  </body>
+</html>
